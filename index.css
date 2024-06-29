@@ -1,0 +1,35 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+}
+
+.logo {
+  width: 150px;
+}
+.nav-items > ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-items > ul > li {
+  padding: 10px;
+  margin: 10px;
+}
+
+.res-card {
+  width: 200px;
+  border: 1px solid black;
+  margin: 10px;
+  padding: 10px;
+}
+
+.search {
+  padding: 10px;
+}
+
+.res-contaier {
+  display: flex;
+  flex-wrap: wrap;
+  
+}
